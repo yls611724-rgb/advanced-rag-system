@@ -51,21 +51,21 @@
 
 本项目主要分为文档处理、检索、重排序、答案生成、缓存和 API 服务六个部分。
 
+
 ```mermaid
 flowchart TD
-    A["用户上传的知识库文档<br/>PDF / TXT"] --> B["文档加载<br/>Document Loader"]
-    B --> C["文本切分<br/>Text Splitter"]
+    A["知识库文档 PDF / TXT"] --> B["文档加载"]
+    B --> C["文本切分"]
     C --> D["Document Chunks"]
 
     D --> E["BGE Embedding"]
     E --> F["FAISS 向量数据库"]
-
     D --> G["BM25 关键词检索器"]
 
     H["用户问题"] --> I["FastAPI 接口"]
     I --> J{"Redis 缓存查询"}
 
-    J -->|"缓存命中"| K["直接返回历史答案"]
+    J -->|"缓存命中"| K["返回缓存答案"]
     J -->|"缓存未命中"| L["Hybrid Search"]
 
     F --> L
@@ -85,8 +85,8 @@ flowchart TD
     S --> U["Redis 缓存结果"]
     T --> U
     U --> V["返回 API 响应"]
-
     K --> V
+```
 
 
 
