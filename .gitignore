@@ -1,0 +1,85 @@
+
+# ==============================
+# Python 缓存
+# ==============================
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ==============================
+# Python 虚拟环境
+# ==============================
+.venv/
+venv/
+env/
+
+# ==============================
+# 环境变量和密钥
+# ==============================
+.env
+.env.*
+!.env.example
+
+# ==============================
+# PyCharm
+# ==============================
+.idea/
+
+# ==============================
+# 日志和临时文件
+# ==============================
+*.log
+*.tmp
+
+# ==============================
+# Jupyter
+# ==============================
+.ipynb_checkpoints/
+
+# ==============================
+# 原始文档数据
+# 不上传个人准备的 PDF、TXT 等资料
+# ==============================
+/data/*
+!/data/.gitkeep
+
+# ==============================
+# FAISS 向量数据库
+# 均可通过构建脚本重新生成
+# ==============================
+/multi_vector_db/
+/multi_vector_db_refactor_test/
+/pdf_vector_db/
+/vector_db/
+
+# ==============================
+# 系统文件
+# ==============================
+.DS_Store
+Thumbs.db
+
+# ==============================
+# 早期学习实验脚本（不上传）
+# ==============================
+/main.py
+/rag_chain.py
+
+/bm25_multi_test.py
+/bm25_test.py
+/bm25_utils.py
+/build_pdf_db.py
+/embedding_test.py
+/faiss_test.py
+/hybrid_search(QR+MQ).py
+/hybrid_search.py
+/multi_loader.py
+/pdf_loader_test.py
+/pdf_test.py
+/reranker_test.py
+
+# 早期检索评估实验
+/evaluate_hybrid.py
+/evaluate_rag(faiss+bm25).py

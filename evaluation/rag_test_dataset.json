@@ -1,0 +1,44 @@
+
+[
+    {
+        "question": "Transformer 的核心机制是什么？",
+        "relevant_chunk_ids": [
+            "chunk_49d52e65e460"
+        ]
+    },
+    {
+        "question": "什么是 RAG？",
+        "relevant_chunk_ids": [
+            "chunk_49d52e65e460"
+        ]
+    },
+    {
+        "question": "NumPy 是什么？",
+        "relevant_chunk_ids": [
+            "chunk_f86b8835282b"
+        ]
+    },
+    {
+        "question": "什么是反向传播？",
+        "relevant_chunk_ids": [
+            "chunk_8b72c60fbc0c",
+            "chunk_5a6e6a62067c",
+            "chunk_d9c86bf71ff0",
+            "chunk_f104d7ce69bc"
+        ]
+    },
+    {
+        "question": "什么是卷积神经网络（CNN）？",
+        "relevant_chunk_ids": [
+            "chunk_24576566b0bd",
+            "chunk_953f9b9de241",
+            "chunk_68128b08f99a",
+            "chunk_ed2b5765670f",
+            "chunk_5de51865b287",
+            "chunk_e72a483b7d42",
+            "chunk_9f76c1b0eab1",
+            "chunk_b15de580abea",
+            "chunk_efc4842335a8"
+        ]
+}
+]
