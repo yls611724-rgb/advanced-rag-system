@@ -187,7 +187,7 @@ rag_project/
 ### 6.2 克隆项目
 
 ```bash
-git clone <你的 GitHub 仓库地址>
+git clone https://github.com/yls611724-rgb/advanced-rag-system.git
 cd rag_project
 ```
 
